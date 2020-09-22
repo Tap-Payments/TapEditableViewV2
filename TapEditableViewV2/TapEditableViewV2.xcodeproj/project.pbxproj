@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		244F426FDEA053C75A6D18E8 /* Pods_TapEditableViewV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1963555A033EA6C336A014C0 /* Pods_TapEditableViewV2.framework */; };
+		E8D1FB2A251A48C600971ECE /* TapEditableViewV2.h in Headers */ = {isa = PBXBuildFile; fileRef = E8D1FB28251A48C600971ECE /* TapEditableViewV2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8D1FB3A251A490400971ECE /* TapEditableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D1FB37251A490400971ECE /* TapEditableView.swift */; };
+		E8D1FB3B251A490400971ECE /* TapEditableViewSubclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D1FB38251A490400971ECE /* TapEditableViewSubclass.swift */; };
+		E8D1FB3C251A490400971ECE /* TapEditableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D1FB39251A490400971ECE /* TapEditableViewDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1963555A033EA6C336A014C0 /* Pods_TapEditableViewV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapEditableViewV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BAA1D1767D47E767876B9DD /* Pods-TapEditableViewV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapEditableViewV2.debug.xcconfig"; path = "Target Support Files/Pods-TapEditableViewV2/Pods-TapEditableViewV2.debug.xcconfig"; sourceTree = "<group>"; };
+		E8D1FB25251A48C600971ECE /* TapEditableViewV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapEditableViewV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D1FB28251A48C600971ECE /* TapEditableViewV2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapEditableViewV2.h; sourceTree = "<group>"; };
+		E8D1FB29251A48C600971ECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D1FB37251A490400971ECE /* TapEditableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapEditableView.swift; sourceTree = "<group>"; };
+		E8D1FB38251A490400971ECE /* TapEditableViewSubclass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapEditableViewSubclass.swift; sourceTree = "<group>"; };
+		E8D1FB39251A490400971ECE /* TapEditableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapEditableViewDelegate.swift; sourceTree = "<group>"; };
+		F170195C126186D589768B61 /* Pods-TapEditableViewV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapEditableViewV2.release.xcconfig"; path = "Target Support Files/Pods-TapEditableViewV2/Pods-TapEditableViewV2.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8D1FB22251A48C600971ECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244F426FDEA053C75A6D18E8 /* Pods_TapEditableViewV2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC5320891C30E140E93F0019 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1963555A033EA6C336A014C0 /* Pods_TapEditableViewV2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8D1FB1B251A48C600971ECE = {
+			isa = PBXGroup;
+			children = (
+				E8D1FB27251A48C600971ECE /* TapEditableViewV2 */,
+				E8D1FB26251A48C600971ECE /* Products */,
+				F94E7067826E2F1FE22E3DFD /* Pods */,
+				AC5320891C30E140E93F0019 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8D1FB26251A48C600971ECE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8D1FB25251A48C600971ECE /* TapEditableViewV2.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8D1FB27251A48C600971ECE /* TapEditableViewV2 */ = {
+			isa = PBXGroup;
+			children = (
+				E8D1FB28251A48C600971ECE /* TapEditableViewV2.h */,
+				E8D1FB29251A48C600971ECE /* Info.plist */,
+				E8D1FB36251A490400971ECE /* Source */,
+			);
+			path = TapEditableViewV2;
+			sourceTree = "<group>";
+		};
+		E8D1FB36251A490400971ECE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E8D1FB37251A490400971ECE /* TapEditableView.swift */,
+				E8D1FB38251A490400971ECE /* TapEditableViewSubclass.swift */,
+				E8D1FB39251A490400971ECE /* TapEditableViewDelegate.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F94E7067826E2F1FE22E3DFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BAA1D1767D47E767876B9DD /* Pods-TapEditableViewV2.debug.xcconfig */,
+				F170195C126186D589768B61 /* Pods-TapEditableViewV2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E8D1FB20251A48C600971ECE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D1FB2A251A48C600971ECE /* TapEditableViewV2.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E8D1FB24251A48C600971ECE /* TapEditableViewV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8D1FB2D251A48C600971ECE /* Build configuration list for PBXNativeTarget "TapEditableViewV2" */;
+			buildPhases = (
+				5F1358017BC783F3BB46289A /* [CP] Check Pods Manifest.lock */,
+				E8D1FB20251A48C600971ECE /* Headers */,
+				E8D1FB21251A48C600971ECE /* Sources */,
+				E8D1FB22251A48C600971ECE /* Frameworks */,
+				E8D1FB23251A48C600971ECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapEditableViewV2;
+			productName = TapEditableViewV2;
+			productReference = E8D1FB25251A48C600971ECE /* TapEditableViewV2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8D1FB1C251A48C600971ECE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E8D1FB24251A48C600971ECE = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = E8D1FB1F251A48C600971ECE /* Build configuration list for PBXProject "TapEditableViewV2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8D1FB1B251A48C600971ECE;
+			productRefGroup = E8D1FB26251A48C600971ECE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8D1FB24251A48C600971ECE /* TapEditableViewV2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8D1FB23251A48C600971ECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F1358017BC783F3BB46289A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapEditableViewV2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8D1FB21251A48C600971ECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D1FB3B251A490400971ECE /* TapEditableViewSubclass.swift in Sources */,
+				E8D1FB3A251A490400971ECE /* TapEditableView.swift in Sources */,
+				E8D1FB3C251A490400971ECE /* TapEditableViewDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E8D1FB2B251A48C600971ECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8D1FB2C251A48C600971ECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8D1FB2E251A48C600971ECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BAA1D1767D47E767876B9DD /* Pods-TapEditableViewV2.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G46S76PUH4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TapEditableViewV2/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tap.TapEditableViewV2;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8D1FB2F251A48C600971ECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F170195C126186D589768B61 /* Pods-TapEditableViewV2.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G46S76PUH4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TapEditableViewV2/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tap.TapEditableViewV2;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8D1FB1F251A48C600971ECE /* Build configuration list for PBXProject "TapEditableViewV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D1FB2B251A48C600971ECE /* Debug */,
+				E8D1FB2C251A48C600971ECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8D1FB2D251A48C600971ECE /* Build configuration list for PBXNativeTarget "TapEditableViewV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D1FB2E251A48C600971ECE /* Debug */,
+				E8D1FB2F251A48C600971ECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8D1FB1C251A48C600971ECE /* Project object */;
+}
