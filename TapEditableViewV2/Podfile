@@ -6,6 +6,5 @@ target 'TapEditableViewV2' do
   use_frameworks!
 
   # Pods for TapEditableViewV2
-  pod 'SwiftLint'
   pod 'TapAdditionsKitV2'
 end
